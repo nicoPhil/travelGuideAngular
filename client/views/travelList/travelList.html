@@ -1,0 +1,11 @@
+bandeau haut (directive a créer)
+<br/><br/>
+<div>mes guides</div>
+<br/><br/>
+
+<div ng-repeat="travel in travelList" class="travelListItem" ng-click="goToTravel(this)">
+	<b>{{travel.title}}</b><br/>
+	{{travel.startDate}}<br/>
+	{{travel.endDate}}
+</div>
+

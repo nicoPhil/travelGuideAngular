@@ -1,0 +1,6 @@
+<div>
+	{{label}}<br/>
+	<span ng-hide="isWrite">{{value}}</span>
+	<input ng-show="isWrite" ng-model="value"/>
+	<button ng-click="change()">change</button>
+</div>
